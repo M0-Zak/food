@@ -1,0 +1,319 @@
+.manger{
+        color: dark;
+        margin-left: 300px;
+}
+
+.miniature {
+        margin-left: 30%;
+        width: 50%;
+        height: 50%;
+}
+strong{
+        margin-left: 30%;
+}
+.zaz{
+        margin-left: 30%;
+        margin-right: 20%;
+}
+
+.div{
+        background-color: olivedrab;
+        margin-left: 100px;
+        margin-right: 100px;
+        border: double;
+        border-radius: 20px;
+        box-shadow: #000 20px 20px 20px;
+}
+footer {
+        text-align: center;
+        padding: 5px;
+        background-color: olivedrab;
+        color: #000;
+}
+h3{
+        margin-left: 30%;
+        margin-right: 20%;
+}
+ul{
+        margin-left: 15px;
+}
+.a{
+        color: darkblue;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin: 10px;
+        padding: 10px;
+        text-shadow: #000;
+        text-transform: lowercase;
+}
+.a:hover{
+        font-size: 20px;
+}
+strong{
+        font-size: 20px;
+}
+.settings{
+        background-color: olivedrab;
+        flex-direction: column;
+        margin-right: 150px;
+        margin-left: 20px;
+        border: double;
+        border-radius: 20px;
+        box-shadow: #000 10px 10px 10px;
+        text-align: center;
+}
+.videooo{
+        height: 300px;
+        width: 500px;
+        border: double;
+        box-shadow: #000 10px 10px 10px;
+        text-align: center;
+        border-radius: 20px;
+        margin-left: 400px;
+        margin-left: 5px;
+}
+.touttt{
+        display: flex;
+}
+button{
+        background-color: #abbaba;
+}
+.btn {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: 35px;
+        bottom: 35px;
+        cursor: pointer;
+
+}
+
+
+.icon{
+        width: 50px;
+        height: 50px;
+}
+.tt{
+        border: double;
+        box-shadow: #000 10px 10px 10px;
+        text-align: center;
+        border-radius: 20px;
+}
+.ulll{
+        text-align: center;
+}
+.logooo{
+        width: 60px;
+        height: 60px;
+        border: double;
+}
+.IMAGE{
+        /* width: 1 280px; */
+        /* height: 720px; */
+        /* border: double; */
+        /* border-radius: 20px; */
+}
+/* images */
+
+.all-logo img {
+        width: 30%;
+        border-radius: 5px;
+
+}
+.all-logo-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+}
+.bdy{
+        text-align: center;
+        color: white;
+        background-color: olivedrab;
+}
+.but{
+        width: 100px;
+        height: 100px;
+}
+.grande{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        cursor: pointer;
+        justify-content: center;
+        background-color: olivedrab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.box{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        border-radius: 20px;
+}
+.box::before{
+        content: '';
+        position: absolute;
+        width: 180px;
+        height: 140%;
+        background-color: white;
+        box-shadow: rgb(8, 8, 8);
+        animation: animate 4s linear infinite;
+}
+.box::after{
+        counter-reset: '';
+        position: absolute;
+        inset: 10px;
+        background-color: rgb(4, 75, 94);
+        border-radius: 16px;
+}
+@keyframes animate{
+        0%{
+                transform: rotate(0deg);
+        }
+        100%{
+                transform: rotate(360deg);
+        }
+}
+
+
+
+
+/*.chrm{
+        height: 100%;
+        width: 100%;
+        background: url(fond.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*reset*/
+
+
+
+.bodyyy{
+        font-family: 'didact-gothic' sans-serif;
+        color: #333;
+
+}
+.body{
+        background-color: whitesmoke;
+}
+
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+a{
+        text-decoration: none;
+}
+.header{
+        background-color:olivedrab;
+        padding: 20px 0;
+}
+
+.header-container{
+        max-width: 950px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: left;
+}
+
+a.logo{
+        color: #fff;
+        font-size: 3em;
+        font-weight: 300;
+}
+
+
+.nav-menu{
+        display: flex;
+        align-items: center;
+}
+
+.nav-menu a {
+        color: #fff;
+        font-size: 1em;
+        text-transform: uppercase;
+        padding: 10px;
+}
+
+.nav-menu > a:hover {
+        background-color: #000;
+}
+.pk{
+        text-align: center;
+        color: #000;
+}
+
+
+.language{
+        position: relative;
+        width: 120px;
+        margin-left: 40px;
+        font-weight: bold;
+}
+.language-selected{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+}
+
+.language-selected::before{
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://cdn-icons-png.flaticon.com/128/197/197374.png);
+}
+
+
+/* images page */
+.titre {
+        display: flex;
+        justify-content: center;
+padding: 30px 0;
+}
+.titre h1 {
+        color: #444444;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-large;
+}
