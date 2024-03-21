@@ -1,3 +1,28 @@
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px)
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .manger{
         color: dark;
         margin-left: 300px;
@@ -17,7 +42,8 @@ strong{
 }
 
 .div{
-        background-color: olivedrab;
+
+        background-color: #BFAE48;
         margin-left: 100px;
         margin-right: 100px;
         border: double;
@@ -27,7 +53,7 @@ strong{
 footer {
         text-align: center;
         padding: 5px;
-        background-color: olivedrab;
+        background-color: #0B4F6C;
         color: #000;
 }
 h3{
@@ -53,7 +79,7 @@ strong{
         font-size: 20px;
 }
 .settings{
-        background-color: olivedrab;
+        background-color: #BFAE48;
         flex-direction: column;
         margin-right: 150px;
         margin-left: 20px;
@@ -133,7 +159,7 @@ button{
 .bdy{
         text-align: center;
         color: white;
-        background-color: olivedrab;
+        background-color: #BFAE48;
 }
 .but{
         width: 100px;
@@ -145,7 +171,7 @@ button{
         text-align: center;
         cursor: pointer;
         justify-content: center;
-        background-color: olivedrab;
+        background-color: #BFAE48;
 }
 
 
@@ -244,7 +270,7 @@ a{
         text-decoration: none;
 }
 .header{
-        background-color:olivedrab;
+        background-color:#0B4F6C;
         padding: 20px 0;
 }
 
