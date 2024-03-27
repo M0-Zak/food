@@ -1,190 +1,151 @@
-
-
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
-@media screen and (max-width: 1280px)
-/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
-@media all and (min-width: 1024px) and (max-width: 1280px)
-/* Sur tous types d'écrans orientés verticalement */
-@media all and (orientation: portrait)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.manger{
-        color: dark;
-        margin-left: 300px;
+.manger {
+  color: dark;
+  margin-left: 300px;
 }
-
-
 
 .miniature {
-        margin-left: 30%;
-        width: 50%;
-        height: 50%;
+  margin-left: 30%;
+  width: 50%;
+  height: 50%;
 }
-strong{
-        margin-left: 30%;
+strong {
+  margin-left: 30%;
 }
-.zaz{
-        margin-left: 30%;
-        margin-right: 20%;
+.zaz {
+  margin-left: 30%;
+  margin-right: 20%;
 }
 
-.div{
-
-        background-color: #BFAE48;
-        margin-left: 100px;
-        margin-right: 100px;
-        border: double;
-        border-radius: 20px;
-        box-shadow: #000 20px 20px 20px;
+.div {
+  background-color: #bfae48;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: double;
+  border-radius: 20px;
+  box-shadow: #000 20px 20px 20px;
+}
+.content {
+        margin: 100px;
 }
 footer {
-        text-align: center;
-        padding: 5px;
-        background-color: #0B4F6C;
-        color: #000;
+  text-align: center;
+  padding: 5px;
+  background-color: #0b4f6c;
+  color: #000;
 }
-h3{
-        margin-left: 30%;
-        margin-right: 20%;
+h3 {
+  margin-left: 30%;
+  margin-right: 20%;
 }
-ul{
-        margin-left: 15px;
+ul {
+  margin-left: 15px;
 }
-.a{
-        color: darkblue;
-        cursor: pointer;
-        box-sizing: border-box;
-        margin: 10px;
-        padding: 10px;
-        text-shadow: #000;
-        text-transform: lowercase;
+.a {
+  color: darkblue;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  text-shadow: #000;
+  text-transform: lowercase;
 }
-.a:hover{
-        font-size: 20px;
+strong {
+  font-size: 20px;
 }
-strong{
-        font-size: 20px;
+.settings {
+  background-color: #bfae48;
+  flex-direction: column;
+  /* margin-right: 150px;
+  margin-left: 20px; */
+  border: double;
+  border-radius: 20px;
+  box-shadow: #000 10px 10px 10px;
+  text-align: center;
 }
-.settings{
-        background-color: #BFAE48;
-        flex-direction: column;
-        margin-right: 150px;
-        margin-left: 20px;
-        border: double;
-        border-radius: 20px;
-        box-shadow: #000 10px 10px 10px;
-        text-align: center;
+.videooo {
+  height: 300px;
+  width: 500px;
+  border: double;
+  box-shadow: #000 10px 10px 10px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 400px;
+  margin-left: 5px;
 }
-.videooo{
-        height: 300px;
-        width: 500px;
-        border: double;
-        box-shadow: #000 10px 10px 10px;
-        text-align: center;
-        border-radius: 20px;
-        margin-left: 400px;
-        margin-left: 5px;
+.touttt {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 100px;
 }
-.touttt{
-        display: flex;
-}
-button{
-        background-color: #abbaba;
+button {
+  background-color: #abbaba;
 }
 .btn {
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        right: 35px;
-        bottom: 35px;
-        cursor: pointer;
-
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 35px;
+  bottom: 35px;
+  cursor: pointer;
 }
 
-
-.icon{
-        width: 50px;
-        height: 50px;
+.icon {
+  width: 50px;
+  height: 50px;
 }
-.tt{
-        border: double;
-        box-shadow: #000 10px 10px 10px;
-        text-align: center;
-        border-radius: 20px;
+.tt {
+  border: double;
+  box-shadow: #000 10px 10px 10px;
+  text-align: center;
+  border-radius: 20px;
 }
-.ulll{
-        text-align: center;
+.ulll {
+  text-align: center;
 }
-.logooo{
-        width: 60px;
-        height: 60px;
-        border: double;
+.logooo {
+  width: 60px;
+  height: 60px;
+  border: double;
 }
-.IMAGE{
-        /* width: 1 280px; */
-        /* height: 720px; */
-        /* border: double; */
-        /* border-radius: 20px; */
+.IMAGE {
+  /* width: 1 280px; */
+  /* height: 720px; */
+  /* border: double; */
+  /* border-radius: 20px; */
 }
 /* images */
 
 .all-logo img {
-        width: 30%;
-        border-radius: 5px;
-
+  width: 30%;
+  border-radius: 5px;
 }
 .all-logo-flex {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
-.bdy{
-        text-align: center;
-        color: white;
-        background-color: #BFAE48;
+.bdy {
+  text-align: center;
+  color: white;
+  background-color: #bfae48;
 }
-.but{
-        width: 100px;
-        height: 100px;
+.but {
+  width: 100px;
+  height: 100px;
 }
-.grande{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        cursor: pointer;
-        justify-content: center;
-        background-color: #BFAE48;
+.grande {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #bfae48;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*.box{
         position: relative;
@@ -248,98 +209,284 @@ button{
 /*--------------------------------------------------------------------------------------------*/
 /*reset*/
 
-
-
-.bodyyy{
-        font-family: 'didact-gothic' sans-serif;
-        color: #333;
-
+.bodyyy {
+  color: #333;
 }
-.body{
-        background-color: whitesmoke;
+.body {
+  background-color: whitesmoke;
+  font-family: monospace;
 }
 
-*{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-a{
-        text-decoration: none;
+a {
+  text-decoration: none;
 }
-.header{
-        background-color:#0B4F6C;
-        padding: 20px 0;
-}
-
-.header-container{
-        max-width: 950px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: left;
+.header {
+  background-color: #0b4f6c;
+  padding: 20px 0;
 }
 
-a.logo{
-        color: #fff;
-        font-size: 3em;
-        font-weight: 300;
+.header-container {
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
 }
 
+a.logo {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 300;
+}
 
-.nav-menu{
-        display: flex;
-        align-items: center;
+.nav-menu {
+  display: flex;
+  align-items: center;
 }
 
 .nav-menu a {
-        color: #fff;
-        font-size: 1em;
-        text-transform: uppercase;
-        padding: 10px;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px;
 }
 
 .nav-menu > a:hover {
-        background-color: #000;
+  background-color: #000;
 }
-.pk{
-        text-align: center;
-        color: #000;
-}
-
-
-.language{
-        position: relative;
-        width: 120px;
-        margin-left: 40px;
-        font-weight: bold;
-}
-.language-selected{
-        display: flex;
-        align-items: center;
-        color: #fff;
-        cursor: pointer;
+.pk {
+  text-align: center;
+  color: #000;
 }
 
-.language-selected::before{
-        content: '';
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        background-image: url(https://cdn-icons-png.flaticon.com/128/197/197374.png);
+.language {
+  position: relative;
+  width: 120px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+.language-selected {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
 }
 
+.language-selected::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/197/197374.png);
+}
 
 /* images page */
 .titre {
-        display: flex;
-        justify-content: center;
-padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
 }
 .titre h1 {
-        color: #444444;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: xx-large;
-        border-bottom: 3px solid #333333;
+  color: #444444;
+  font-size: xx-large;
+  border-bottom: 3px solid #333333;
 }
+
+/* List style */
+.titre {
+        color: #222222;
+        border-bottom: 2px solid #444444;
+        margin-bottom: 16px;
+      }
+.list {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+      }
+.list li {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+.list li a {
+        color: #0b4f6c;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin: 0;
+      }
+/* List style */
+
+/* footer style */
+.footer {
+padding: 20px 0;
+}
+/* footer style */
+
+/* Avis style */
+#avis {
+  /* background-color: #0b4f6c; */
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+#avis .container{
+  border: 1px solid #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 30px;
+}
+#avis .container .commentaires{}
+#avis .container .commentaires ul{
+  list-style: none;
+}
+#avis .container .commentaires ul li{
+padding: 10px;
+border-radius: 5px;
+background-color: #fff;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+#avis .container .commentaires ul li .header-comm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ccc;
+}
+#avis .container .commentaires ul li .header-comm img{
+  width: 40px;
+}
+#avis .container .commentaires ul li .header-comm span{
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+}
+#avis .container .commentaires ul li p{
+  font-size: 18px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#form p{ }
+#form p label{
+  font-size: 16px;
+}
+#form p textarea{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #444444;
+  border-radius: 5px;
+}
+#form p button{
+  background-color: #0b4f6c;
+padding: 5px 10px;
+color: #ffffff;
+font-weight: bold;
+border: none;
+border-radius: 5px;
+font-size: large;
+width: 100%;
+cursor: pointer;
+}
+/* Avis style */
+
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 480px) {
+  .body {
+    /* background-color: red; */
+  }
+  .grande {
+    font-size: 22px;
+    padding: 10px;
+  }
+  .touttt {
+    flex-direction: column;
+    margin: 48px 0 0;
+  }
+  .settings {
+    display: none;
+  }
+  #videobox {
+    padding: 0 20px;
+  }
+  .videooo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .content {
+    margin: 60px 0;
+    /* test */
+    /* margin: 0; */
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    /* test */
+  }
+  .titre {
+    color: #222222;
+    border-bottom: 2px solid #444444;
+    margin-bottom: 16px;
+  }
+  .list {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .list li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .list li a {
+    color: #0b4f6c;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0;
+  }
+  .list li p {
+  }
+  .footer {
+        width: 100%;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #111;
+  }
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+/* @media all and (min-width: 1024px) and (max-width: 1280px) */
+/* Sur tous types d'écrans orientés verticalement */
+/* @media all and (orientation: portrait) */
